@@ -32,7 +32,7 @@ Our approach is to integrate single-cell transcriptomic datasets across differen
 
 ---
 
-##Code
+## Code
 
 The Jupyter notebook and accompanying code for our submission is available here.
 
