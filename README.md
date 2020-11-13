@@ -16,12 +16,16 @@ Our approach is to integrate single-cell transcriptomic datasets across differen
 
 
 
+<img src="https://github.com/vishakagopalan/nf_hackathon/blob/main/trajectory.png" width="400px">
+
 1. **We successfully construct a trajectory of Schwann cell development.** The validity of our trajectory can be assessed from the fact that Schwann cell precursors arise from the autonomic lineage of the mouse neural crest, while myelinating and non-myelinating Schwann cells descend from Schwann cell precursors. We derive signature genes from each stage of neural crest development. 
 
+<img src="https://github.com/vishakagopalan/nf_hackathon/blob/main/PNF_SC_AUCell.png" width="400px">
 
 
 2. **Schwann cells in plexiform neurofibroma resemble myelinating Schwann cells.** We score single-cell transcriptomes of Schwann cells from plexiform neurofibromas [4] using the above neural crest signatures. We find that these Schwann cells display high transcriptomic activity of genes characteristic of mature myelinating Schwann cells, suggesting that they are not yet at a de-differentiated stage. 
 
+<img src="https://github.com/vishakagopalan/nf_hackathon/blob/main/signature_heatmap.png" width="600px">
 
 
 3. **MPNST tumors display activation of migratory neural crest and neutral tube cells**. We scored multiple human MPNST bulk RNA-seq samples [5] using our neural crest signatures. All tumor samples showed activiation of non-myelinating Schwann cells. A majority, however, also displayed characteristics of neural tube and migratory neural crest cells. A subset of these tumors also recapitulated a Schwann cell progenitor state (present in mouse embryos at the E13.5 stage). 
